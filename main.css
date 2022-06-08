@@ -1,0 +1,12 @@
+html {
+    background-color: #fafafa
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align: justify
+}
