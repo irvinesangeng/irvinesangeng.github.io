@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="robots" content="noindex">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#90a14d">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link rel="icon" href="https://irvinesangeng.github.io/favicon.ico" type="image/x-icon">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<title>Page Not Found - Irvine Sangeng</title>
+
+<style>
+    body {background-color: #2d2f31; font-family: 'Noto Sans KR', sans-serif; color: #e3e3e3; margin: auto;}
+    h1 {font-size: 2.30rem; line-height: 1.45em; padding-left: 0.32em; padding-right: 0.32em; padding-top: 5em; margin: auto; max-width: 1050px;}
+    img {transition: transform .3s ease-in-out;}
+    img:hover {transform: rotate(10deg);}
+    
+@media only screen and (max-width: 768px) {
+    h1 {font-size: 1.7rem; padding-left: 1em; padding-right: 1em; padding-top: 2em;}
+}
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {display: block;}
+}
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-dark p-3" data-bs-theme="dark">
+    <div class="container-fluid" style="max-width: 1050px">
+        <a class="navbar-brand" href="https://irvinesangeng.github.io"><img src="https://irvinesangeng.github.io/favicon.ico" class="d-inline-block align-top" style="margin-right:0.2em" height="30" alt="Logo">Irvine</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="fa-solid fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" data-bs-toggle="dropdown">Social</a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.linkedin.com/in/irvinesangeng" target="_blank"><i class="fa-brands fa-linkedin" style="padding-right: 0.6em"></i>LinkedIn</a>
+            </li>
+            <li><a class="dropdown-item" href="https://github.com/irvinesangeng" target="_blank"><i class="fa-brands fa-github" style="padding-right: 0.5em"></i>GitHub</a>
+            </li>
+        </ul>
+    </li>
+    </ul>
+    </div>
+    </div>
+</nav>
+
+<h1>404. <font color=#777777>That's an error.</font>
+    <p id="errpage"></p>
+    <style>
+    #errpage {
+        font-size: 0.9rem;
+        line-height: 1.5em;
+    }
+    </style>
+    <script>
+    var message1 = "The requested URL ";
+    var message2 = " could not be found.";
+    document.getElementById("errpage").innerHTML = message1 + window.location.pathname + message2;
+    </script>
+</h1>
+</body>
+</html>
